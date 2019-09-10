@@ -8,6 +8,4 @@ ENV JDBC_PASSWORD="recipease"
 
 COPY . .
 
-
-RUN mvn install
 CMD ["java", "-jar", "./target/Go-Fund-You-0.0.1-SNAPSHOT.jar"]
